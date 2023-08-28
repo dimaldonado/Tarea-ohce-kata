@@ -11,3 +11,8 @@ def ohce_kata(hora):
     if(12<=hora<20):
         return "¡Buenas tardes!"
     
+
+def ohce_kata_palindromo(palabra):
+    if palabra != palabra[::-1]:
+        return palabra[::-1]
+     
