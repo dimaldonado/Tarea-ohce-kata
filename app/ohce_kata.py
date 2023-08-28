@@ -8,5 +8,6 @@ def ohce_kata(hora):
     if(6<=hora<12):
         return "¡Buenos dias!"
     #caso tarde
-    if(hora==12):
+    if(12<=hora<20):
         return "¡Buenas tardes!"
+    
