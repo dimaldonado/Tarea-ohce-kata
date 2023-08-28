@@ -36,3 +36,8 @@ def test_hora_tade():
 def test_palindromo():
     assert ohce_kata_palindromo("hola")=="aloh"
     assert ohce_kata_palindromo("oto")=="¡Bonita palabra!"
+    assert ohce_kata_palindromo("radar") == "¡Bonita palabra!"
+    assert ohce_kata_palindromo("python") == "nohtyp"
+    assert ohce_kata_palindromo("reconocer") == "¡Bonita palabra!"
+    assert ohce_kata_palindromo("hola") == "aloh"
+    assert ohce_kata_palindromo("12321") == "¡Bonita palabra!"
