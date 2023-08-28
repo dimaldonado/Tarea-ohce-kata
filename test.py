@@ -1,5 +1,7 @@
 import pytest
 from app.ohce_kata import ohce_kata
+from app.ohce_kata import ohce_kata_palindromo
+
 
 def test_hora_noche():
     assert ohce_kata(20)=="¡Buenas noches!"
@@ -31,3 +33,6 @@ def test_hora_tade():
     assert ohce_kata(18)=="¡Buenas tardes!"
     assert ohce_kata(19)=="¡Buenas tardes!"
 
+def test_palindromo():
+    assert ohce_kata_palindromo("hola")=="aloh"
+    assert ohce_kata_palindromo("oto")=="¡Bonita palabra!"
