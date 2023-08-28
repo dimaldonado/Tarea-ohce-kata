@@ -20,3 +20,6 @@ def test_hora_manana():
     assert ohce_kata(9)=="¡Buenos dias!"
     assert ohce_kata(10)=="¡Buenos dias!"
     assert ohce_kata(11)=="¡Buenos dias!"
+
+def test_hora_tade():
+    assert ohce_kata(12)=="¡Buenas tardes!"
