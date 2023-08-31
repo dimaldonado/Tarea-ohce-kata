@@ -44,4 +44,4 @@ def test_palindromo():
 
 def test_stop():
     assert ohce_kata_stop("Stop!")==True
-    assert ohce_kata_stop("Stop!")==False
+    assert ohce_kata_stop("holaasd")==False
